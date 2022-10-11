@@ -1,0 +1,36 @@
+.details-count{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    .details-count-one{
+        height: auto;
+        text-align: center;
+        .on-mine{
+            // height: auto;
+            list-style: none;
+            li{
+                margin: 60px 0px;
+            }
+        }
+    }
+    .nav{
+        list-style: none;
+        width: 1240px;
+        line-height: 62px;
+        margin-bottom: 70px;
+        li{
+            cursor: pointer;
+            text-align: center;
+            width: 310px;
+            float: left;
+            border: 1px solid #efefef;
+            border-bottom: 2px solid #000;
+        }   
+    }
+    .on{
+        border: 2px solid #000 !important;
+        border-bottom: 1px solid transparent !important;
+    }
+}

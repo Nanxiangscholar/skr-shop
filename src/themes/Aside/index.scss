@@ -1,0 +1,63 @@
+#aside {
+    width: 50px;
+    position: fixed;
+    right: 0;
+    bottom: -225px;
+    z-index: 99;
+
+    ul {
+        width: 100%;
+        background-color: black;
+        list-style: none;
+
+        li {
+            text-align: center;
+            line-height: 50px;
+            width: 100%;
+            vertical-align: middle;
+            height: 50px;
+            color: #fff;
+            cursor: pointer;
+        }
+    }
+}
+
+.navShopCar{
+    justify-content: space-between;
+    display: flex;
+}
+.navShopCar-ul{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    gap: 20px 0px;
+    li{
+        height: 80px;
+        width: 100%;
+        display: flex;
+        gap: 0px 12px;
+        .nav-left{
+            height: 100%;
+            img{
+                height: 100%;
+            }
+        }
+        .nav-right{
+            display:flex;
+            flex: 1;
+            flex-direction: column;
+            justify-content: center;
+            p{
+                text-overflow:ellipsis;
+                overflow:hidden;
+                white-space:nowrap;
+            }
+            div{
+                span:nth-child(2){
+                    text-decoration: line-through;
+                    margin-left: 10px;
+                }
+            }
+        }
+    }
+}

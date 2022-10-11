@@ -1,0 +1,227 @@
+.best{
+	width: 80%;
+	margin: auto;
+	&-title p{
+    color: #333;
+    font-size: 48px;
+    text-align: center;
+    margin: 60px 0 20px 0;
+    font-weight: 100;
+	}
+	&-classify{
+		display: flex;
+		&-list{
+			cursor: pointer;
+			border: 1px solid #ccc;
+			text-align: center;
+			font-weight: 700;
+			font-size: 18px;
+			width: 20%;
+			height: 58px;
+			padding: 0 16px;
+			line-height: 58px;
+			border-bottom: 2px solid #000;
+			transition: all .3s cubic-bezier(.645,.045,.355,1);
+			&:nth-child(1){
+				border: 2px solid #000;
+				border-bottom: none;
+			}
+		}
+	}
+	.child{
+		select{
+			float: right;
+			line-height: 60px;
+			padding: 5px;
+			border-radius: 5px;
+			outline: none;
+			width: 100px;
+			border: 1px solid rgb(204, 204, 204);
+			margin: 20px auto;
+		}
+		&-classify{
+			padding: 0;
+			width: 70%;
+			height: 32px;
+			margin: 10px auto;
+			display: flex;
+			justify-content: space-around;
+			text-align: center;
+			line-height: 32px;
+			position: relative;
+			li{
+				cursor: pointer;
+				width: 100%;
+				&::before{
+					display: block;
+					content: "";
+					width: 1px;
+					height: 10px;
+					background: #ccc;
+					position: absolute;
+					top: 10px;
+				}
+				span:hover{
+					border-bottom: 1px solid #000;
+				}
+			}
+			&-all::before{
+				content: '';
+				display: none !important;
+			}
+		}
+		strong{
+			display: block;
+			width: 70px;
+			height: 36px;
+			line-height: 50px;
+			font-size: 34px;
+		}
+		&-sort{
+			position: absolute;
+			left: 0;
+			top: 0;
+			text-align: center;
+			color: white;
+			background-image: url(https://static.wconcept.co.kr/web/images/common/bg_best.png);
+			&-best{
+				width: 70px;
+			}
+			&-triangle{
+				height: 22px;
+			}
+		}
+		&-hot{
+			background-color: #f2f2f2;
+			position: relative;
+			top: 70px;
+			&-top{
+				width: 100%;
+				display: flex;
+				padding: 20px;
+				padding-bottom: 50px;
+				flex-wrap: wrap;
+				justify-content: space-around;
+				li{
+					cursor: pointer;
+					width: 29.33333%;
+					position: relative;
+					img{
+						width: 100%;
+					}
+				}
+			}
+			&-bottom{
+				width: 100%;
+				display: flex;
+				padding: 20px;
+				padding-bottom: 50px;
+				flex-wrap: wrap;
+				justify-content: space-around;
+				li{
+					cursor: pointer;
+					width: 21%;
+					position: relative;
+					strong{
+						position: absolute;
+						color: white;
+						text-align: center;
+						top: 0;
+						left: 0;
+						display: block;
+						width: 50px;
+						height: 50px;
+						line-height: 50px;
+						font-size: 26px;
+						background-color: #555;
+					}
+					img{
+						width: 100%;
+					}
+				}
+			}
+		}
+		&-list{
+			display: flex;
+			flex-wrap: wrap;
+			margin-right: -22px;
+			position: relative;
+			top: 70px;
+			li{
+				list-style: none;
+				cursor: pointer;
+				width: calc(16.66667% - 20px);
+				margin-right: 20px;
+				position: relative;
+				margin-bottom: 30px;
+				strong{
+					position: absolute;
+					top: 0;
+					left: 0;
+					text-align: center;
+					color: white;
+					display: block;
+					width: 35px;
+					height: 30px;
+					line-height: 30px;
+					font-size: 16px;
+					background-color: rgb(121, 119, 119);
+				}
+				img{
+					width: 100%;
+				}
+			}
+		}
+	}
+	.textMax{
+		.brand{
+			margin-bottom: 10px;
+		}
+		.front{
+			overflow: hidden;
+			white-space: nowrap;
+			text-overflow: ellipsis;
+			line-height: 14px;
+			margin-bottom: 9px;
+			padding-top: 3px;
+		}
+		.product{
+			line-height: 15px;
+			color: #555;
+			overflow: hidden;
+			margin-bottom: 16px;
+		}
+		.price{
+			display: block;
+			position: relative;
+			right: 0;
+			font-size: 16px;
+			color: #ff4000;
+			.discount_price{
+				margin-right: 8px;
+				color: #000;
+			}
+			.base_price{
+				font-size: 12px;
+				color: grey;
+				text-decoration: line-through;
+			}
+			.discount_rate{
+				display: block;
+				position: absolute;
+				top: 0;
+				right: 0;
+			}
+		}
+		p{
+			border: 1px solid #9b9b9b;
+			font-size: 12px;
+			text-align: center;
+			line-height: 18px;
+			width: 30px;
+			height: 18px;
+			color: #b2b2b2;
+			box-shadow: 1px 1px 2px #9b9b9b;
+		}
+	}
+}

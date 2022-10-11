@@ -1,0 +1,50 @@
+.address_detail {
+    .info {
+        display: flex;
+        padding: 20px 0;
+
+        div {
+            width: 240px;
+            margin-right: 30px;
+
+            input {
+                margin: 10px 10px 0 0;
+                border: 1px solid #000;
+                border-radius: 0;
+            }
+        }
+    }
+
+    .address_item {
+        display: flex;
+
+        div {
+            width: 110px;
+            margin: 0 24px 5px 0;
+            ;
+        }
+    }
+
+    .detail_address {
+        padding: 20px 0;
+
+        input {
+            width: 470px;
+            margin-top: 10px;
+        }
+    }
+
+    .default {
+        input {
+            width: 16px;
+            height: 16px;
+            vertical-align: middle;
+        }
+
+        label {
+            margin-left: 10px;
+            vertical-align: middle;
+        }
+    }
+
+}

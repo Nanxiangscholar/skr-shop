@@ -1,0 +1,45 @@
+.shop-detailed-ul {
+    padding: 10px;
+    li {
+        display: flex;
+        height: 120px;
+        align-items: center;
+        border-bottom: 1px solid #CCC;
+
+        .ul-imgbox {
+            width: 100px;
+            height: 100px;
+
+            img {
+                width: 100%;
+            }
+        }
+
+        .ul-mind {
+            margin-left: 20px;
+            width: 500px;
+            h3 {
+                font-size: 15px;
+                font-weight: 800;
+            }
+
+            p {
+                font-size: 14px;
+            }
+        }
+
+        .ul-right {
+            width: 100px;
+            p:nth-child(1){
+                font-size: 18px;
+            }
+            p:nth-child(2){
+                text-decoration:line-through 
+            }
+        }
+    }
+    .footers{
+        margin-top: 20px;
+        text-align: center;
+    }
+}

@@ -1,0 +1,195 @@
+.paytotal {
+    position: relative;
+    box-sizing: border-box;
+    width: 1200px;
+    margin: 50px auto;
+    display: flex;
+    .left {
+        .address-hidebox {
+            display: none;
+            position: fixed;
+            top: 40%;
+            left: 20%;
+            margin: auto;
+            width: 736px;
+            height: 250px;
+            z-index: 10;
+            .signOut {
+                position: absolute;
+                top: 10px;
+                right: 10px;
+                cursor: pointer;
+            }
+
+            section {
+                main {
+                    display: flex;
+                    flex-direction: column;
+
+                    .boxli {
+                        margin-top: 8px;
+                        display: flex;
+                        align-items: center;
+                        width: 650px;
+                        border-bottom: 1px solid #ccc;
+
+                        .boxli-count1 {
+                            display: flex;
+                            font-size: 14px;
+
+                            ul {
+                                width: 530px;
+                                height: 40px;
+                                list-style: none;
+                                .alone{
+                                    display: inline-block;
+                                    padding: 2px;
+                                    font-size: 12px;
+                                    background-color: #000;
+                                    color: #fff;
+                                    margin-left: 10px;
+                                }
+                            }
+
+                            .li-edit {
+                                cursor: pointer;
+                                width: 100px;
+                                text-align: right;
+                            }
+                        }
+                    }
+                }
+            }
+
+            footer {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+
+                span {
+                    cursor: pointer;
+                }
+
+                p {
+                    cursor: pointer;
+                    width: 80px;
+                    text-align: center;
+                    line-height: 30px;
+                    color: #fff;
+                    background-color: #555;
+                }
+            }
+        }
+
+        position: relative;
+        width: 736px;
+        margin: 50px;
+
+        .left-box {
+            color: #fff;
+            font-size: 14px;
+            width: 736px;
+            height: 40px;
+            border: 1px solid #000;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #666;
+            padding: 0 30px;
+        }
+
+        .address {
+            width: 736px;
+            margin-bottom: 10px;
+
+            .addressCount {
+                width: 736px;
+                height: 80px;
+                border: 1px solid #CCC;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 0 30px;
+                section{
+                    p{
+                        font-size: 16px;
+                        span{
+                            font-size: 14px;
+                            font-weight: 800;
+                        }
+                    }
+                }
+                div{
+                    span{
+                        cursor: pointer;
+                        font-weight: 800;
+                    }
+                    span:hover{
+                        color:red;
+                    }
+                }
+            }
+
+        }
+
+        .obviousShop {
+            width: 736px;
+
+            .shop {
+                width: 736px;
+                border: 1px solid #ccc;
+            }
+        }
+    }
+
+    .right {
+        position: relative;
+        top: 100px;
+        .imgbox{
+            width: 400px;
+            height: 100px;
+            display: flex;
+            img{
+                display: inline-block;
+                border: 1px solid #000;
+                margin-right: 20px;
+            }
+        }
+        .placeOrder{
+            box-sizing: border-box;
+            margin-top: 45px;
+            width: 300px;
+            border: 1px solid #ccc;
+            nav{
+                line-height: 50px;
+                border-bottom: 1px solid #ccc;
+                padding: 0 20px;
+                background-color: #e5c6c633;
+            }
+            div{
+                line-height: 50px;
+                border-bottom: 1px solid #ccc;
+                padding: 0 20px;
+            }
+            footer{
+                height: 90px;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                padding: 0 20px;
+                button{
+                    cursor: pointer;
+                    width: 80px;
+                    height: 35px;
+                    border: 1px solid #666;
+                    background-color: #79797995;
+                    color: #fff;
+                }
+                button:hover{
+                    border-color:#d3c2c2 ;
+                    background-color: #f57272;
+                }
+            }
+        }
+    }
+}

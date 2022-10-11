@@ -1,0 +1,280 @@
+.mypage {
+    width: 100%;
+    .mypage-top {
+      position: relative;
+      padding-top: 80px;
+      width: 100%;
+      text-align: center;
+      h1 {
+        font-size: 44px;
+        font-weight: 500;
+      }
+      .titleContent {
+        margin-top: 5px;
+        .content-left {
+          padding-left: 10px;
+          font-size: 12px;
+          em {
+            margin: 0 10px;
+          }
+        }
+        .per-center {
+          font-size: 12px;
+        }
+      }
+      .change-password {
+        margin: 5px 0 44px 0;
+        text-align: center;
+        span {
+          color: #000;
+          font-size: 12px;
+          cursor: pointer;
+          font-weight: 700;
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+    .mypage-center {
+      width: 100%;
+      margin-bottom: 60px;
+      .mypagetop {
+        width: 100%;
+        border: 1px solid #ccc;
+        background-color: #f3f3f3;
+        ul {
+          position: relative;
+          display: flex;
+          margin: 0 auto;
+          width: 1240px;
+          li {
+            width: 206px;
+            text-align: center;
+            line-height: 40px;
+            color: #333;
+            &::before {
+              content: '';
+              width: 1px;
+              height: 14px;
+              background-color: #e5e5e5;
+              display: block;
+              position: absolute;
+              top: 12px;
+              left: 0;
+            }
+          }
+        }
+      }
+      .mypagecontent {
+        width: 100%;
+        .innercontent {
+          border-bottom: 1px solid #ccc;
+          .inner {
+            display: flex;
+            width: 1240px;
+            margin: 0 auto;
+            ul {
+              position: relative;
+              width: 206px;
+              height: 128px;
+              &:not(:first-child)::before {
+                display: block;
+                position: absolute;
+                top: 0;
+                left: 0;
+                content: '';
+                width: 1px;
+                height: 100%;
+                background-color: #e5e5e5;
+              }
+              li {
+                width: 100%;
+                line-height: 25px;
+                text-align: center;
+                color: #4c4c4c;
+              }
+            }
+          }
+        }
+      }
+    }
+    .mypage-bottom {
+      width: 1240px;
+      margin: 0 auto;
+      margin-bottom: 180px;
+      .activeimg {
+        cursor: pointer;
+        margin-bottom: 60px;
+      }
+      .tabletop {
+        position: relative;
+        width: 100%;
+        height: 36px;
+        h2 {
+          display: inline-block;
+          position: absolute;
+          top: 0;
+          left: 0;
+          font-size: 24px;
+          color: #000;
+          line-height: 1em;
+        }
+        span {
+          display: inline-block;
+          position: absolute;
+          top: 0;
+          right: 0;
+          font-size: 18px;
+          color: #000;
+          font-family: '楷体';
+          // line-height: 1em;
+        }
+      }
+      .orders {
+        width: 100%;
+        border-collapse: collapse;
+        border-top: 2px solid #171717;
+        border-bottom: 1px solid #171717;
+        table-layout: fixed;
+        margin-bottom: 60px;
+        thead {
+          tr {
+            th {
+              height: 68px;
+              font-size: 14px;
+              padding: 0 14px;
+              color: #000;
+              vertical-align: middle;
+              border-bottom: 1px solid #b5b5b5;
+            }
+          }
+        }
+        tbody {
+          tr {
+            td {
+              text-align: center;
+              padding: 14px;
+              cursor: pointer;
+              .nodefault {
+                border-radius: 5px;
+                background-color: #fff;
+                border: 1px solid #ccc;
+                margin-left: 5px;
+                width: 65px;
+                color: #000;
+                cursor: pointer;
+              }
+              .nodefaultTrue{
+                border-radius: 5px;
+                background-color: #000;
+                border: 1px solid #ccc;
+                margin-left: 5px;
+                width: 65px;
+                color: #fff;
+                cursor: pointer;
+              }
+
+              .default {
+                border-radius: 5px;
+                background-color: #000;
+                border: 1px solid #ccc;
+                margin-left: 5px;
+                width: 65px;
+                color: #fff;
+                cursor: pointer;
+              }
+              .delbtn,.editbtn {
+                border-radius: 5px;
+                background-color: #fff;
+                border: 1px solid #ccc;
+                margin-left: 5px;
+                width: 40px; 
+                text-align: center;
+                color: #000;
+                cursor: pointer;
+              }
+            }
+          }
+        }
+      }
+      .myShopping-address {
+        position: relative;
+        width: 100%;
+        height: 36px;
+        h2 {
+          display: inline-block;
+          position: absolute;
+          top: 0;
+          left: 0;
+          font-size: 24px;
+          color: #000;
+          line-height: 1em;
+        }
+        .addAddress {
+          position: absolute;
+          top: 0;
+          right: 0;
+          display: flex;
+          align-items: center;
+          button {
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            background-color: #000;
+            color: #f3f3f3;
+            font-size: 16px;
+            text-align: center;
+            line-height: 30px;
+            margin-right: 5px;
+            cursor: pointer;
+          }
+          span {
+            font-size: 24px;
+          }
+        }
+      }
+    }
+  }
+  
+  .ant-modal-root {
+    .Login-useName {
+      text-align: center;
+      width: 435px;
+      height: 40px;
+      margin: 0 auto;
+      position: relative;
+      label {
+        width: 110px;
+        height: 40px;
+        padding-right: 10px;
+      }
+      input {
+        width: 380px;
+        height: 40px;
+        border: none;
+        background-color: #f2f2f2;
+        padding: 0 10px;
+      }
+    }
+    .Login-password {
+      width: 435px;
+      height: 80px;
+      padding-top: 30px;
+      margin: 0 auto;
+      position: relative;
+      label {
+        width: 110px;
+        height: 40px;
+        padding-right: 25px;
+      }
+      input {
+        width: 380px;
+        height: 40px;
+        border: none;
+        background-color: #f2f2f2;
+        padding: 0 10px;
+      }
+    }
+  }
+  

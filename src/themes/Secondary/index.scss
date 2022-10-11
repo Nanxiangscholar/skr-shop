@@ -1,0 +1,52 @@
+.SeconDary {
+  .title {
+    .p_SeconDary {
+      margin-bottom: 10px;
+      font-size: 36px;
+    }
+
+    p {
+      color: #333;
+      font-family: ProximaNova-Thin;
+      font-size: 48px;
+      text-transform: uppercase;
+      text-align: center;
+      margin: 60px 0 20px 0;
+      font-weight: 100;
+    }
+  }
+
+  .ant-breadcrumb {
+    height: 42px;
+    text-align: center;
+    box-sizing: border-box;
+    color: rgba(0, 0, 0, 0.65);
+    font-variant: tabular-nums;
+    line-height: 1.5;
+    list-style: none;
+    font-feature-settings: 'tnum';
+    color: rgba(0, 0, 0, 0.45);
+    font-size: 14px;
+
+    .ant-breadcrumb-separator {
+      margin: 0 8px;
+      color: rgba(0, 0, 0, 0.45);
+    }
+  }
+  .dev-wb-brand {
+    width: 80%;
+    margin: 0 auto;
+    background: #5a5a5a;
+    color: #fff;
+    height: 296px;
+    padding: 45px 35px 0 47px;
+    p {
+      font-size: 40px;
+      font-weight: 200;
+      padding-bottom: 30px;
+    }
+  }
+  .dev-wb-primary-PrimaryList {
+    margin: 0 auto;
+  }
+}

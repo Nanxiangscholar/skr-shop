@@ -1,0 +1,95 @@
+#orderDetail {
+    width: 100%;
+    height: auto;
+    margin-top: 60px;
+
+    #line {
+        margin: 0 auto;
+        width: 920px;
+
+        #lineTop {
+            width: 920px;
+            height: 50px;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        #steps {
+            width: 100%;
+            height: 150px;
+            padding: 20px;
+            display: flex;
+            border: 1px solid #ccc;
+            text-align: center;
+
+            #step {
+                width: 80%;
+                height: 100%;
+                padding-top: 40px;
+                padding-right: 40px;
+                border-right: 2px solid #ccc;
+            }
+
+            #btn {
+                width: 30%;
+                height: 100%;
+                margin-top: 20px;
+
+                #check {
+                    margin-bottom: 10px;
+                    font-size: 12px;
+                    width: 78px;
+                    height: 32px;
+                    padding: 0 10px;
+                    border-radius: 5px;
+                    color: #fff;
+                    background-color: #ff4d4f;
+                    border-color: #ff4d4f;
+                    text-shadow: 0 -1px 0 black;
+                    box-shadow: 0 2px 0 black;
+                }
+            }
+        }
+
+        #shopText {
+            width: 920px;
+            height: 162px;
+            border: 2px solid #ccc;
+            margin-top: 20px;
+            padding: 20px;
+            display: flex;
+            justify-content: space-evenly;
+
+            #picture {
+                width: 100px;
+                height: 100px;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+
+            #price {
+                h2 {
+                    color: red;
+                }
+
+                h3 {
+                    text-decoration: line-through;
+                }
+            }
+        }
+
+        #address {
+            padding-top: 20px;
+            list-style: none;
+            width: 920px;
+            height: 255px;
+            border: 1px solid #ccc;
+            display: flex;
+            justify-content: space-around;
+        }
+
+    }
+}

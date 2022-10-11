@@ -1,0 +1,258 @@
+.Nav {
+    height: 65px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5% 0 2%;
+
+    .nav-ipt {
+        position: relative;
+        width: 25%;
+        display: flex;
+        align-items: center;
+
+        .span-ipt {
+            width: 100%;
+            border-width: 0px 0px 2px;
+            border-top-style: initial;
+            border-right-style: initial;
+            border-bottom-style: solid;
+            border-left-style: initial;
+            border-color: initial;
+            border-image: initial;
+
+            .ant-input {
+                width: 340px;
+                height: 30px;
+                border: 0;
+                box-shadow: none;
+                padding-right: 30px;
+            }
+        }
+
+        .icon-eject {
+            position: absolute;
+            top: 50%;
+            right: 35px;
+            z-index: 2;
+            color: rgba(0, 0, 0, .65);
+            line-height: 0;
+            transform: translateY(-50%);
+            cursor: pointer;
+        }
+
+        .icon-ipt {
+            position: absolute;
+            top: 50%;
+            right: 10px;
+            z-index: 2;
+            color: rgba(0, 0, 0, .65);
+            line-height: 0;
+            transform: translateY(-50%);
+            cursor: pointer;
+        }
+
+    }
+
+    .nav-icons {
+        width: 15%;
+        display: flex;
+        position: relative;
+        cursor: pointer;
+        text-align: center;
+
+        .navicons {
+            line-height: 65px;
+            min-width: 70px;
+            width: calc(33.33333% - 15px);
+            position: relative;
+            font-size: 12px;
+
+            p {
+                position: absolute;
+                top: 20%;
+                left: 50%;
+                transform: translate(-50%);
+            }
+        }
+
+    }
+}
+
+.Header {
+    width: 100%;
+    height: 65px;
+    line-height: 65px;
+    background-color: #000;
+    color: #fff;
+    z-index: 55;
+    min-width: 1400px;
+
+    a {
+        color: #fff;
+    }
+
+    .Had-conent {
+        width: 55%;
+        height: 100%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+
+        .left {
+            float: left;
+
+        }
+
+        .right {
+            float: right;
+        }
+
+        ul {
+            width: 100%;
+            display: flex;
+            margin: 0 15px;
+
+            li {
+                text-align: center;
+                letter-spacing: 2px;
+                width: 100px;
+                font-weight: 500;
+
+                a {
+                    color: #fff;
+                }
+
+                :hover {
+                    color: #04bd8e;
+                }
+            }
+        }
+    }
+
+    .utility-logo {
+        display: none;
+        height: 65px;
+        width: 10%;
+        min-width: 150px;
+        position: absolute;
+        top: -5px;
+        left: 5%;
+
+        a {
+            display: inline-block;
+            height: 100%;
+
+            img {
+                height: 100%;
+                width: 100%;
+            }
+        }
+    }
+
+    .utility {
+        z-index: 99;
+        background-color: #000;
+        display: none;
+        height: 65px;
+        width: 15%;
+        min-width: 150px;
+        position: absolute;
+        top: 0;
+        right: 2%;
+
+        .navicons {
+            display: inline-block;
+            line-height: 65px;
+            min-width: 70px;
+            width: calc(33.33333% - 15px);
+            position: relative;
+            font-size: 12px;
+            text-align: center;
+
+            a {
+                color: #fff;
+            }
+
+            p {
+                position: absolute;
+                top: 25%;
+                left: 50%;
+                cursor: pointer;
+                transform: translate(-50%);
+            }
+        }
+    }
+
+    .Had-eject {
+        position: relative;
+        z-index: 999;
+        display: none;
+
+        .eng {
+            width: 100%;
+            height: 300px;
+            -webkit-animation: eng_-data-v-37b9cd63 1s;
+            animation: eng_-data-v-37b9cd63 1s;
+            position: absolute;
+            background-color: #fff;
+            box-shadow: 1px 1px 1px #fff;
+
+            .content {
+                width: 70%;
+                height: 100%;
+                margin: 0 auto;
+
+                .left {
+                    width: 55%;
+                    height: 100%;
+                    padding: 25px 60px 25px 25px;
+                    overflow: hidden;
+
+                    li {
+                        float: left;
+                        color: #4e4d4d;
+                        height: 30px;
+                        line-height: 30px;
+                        width: 25%;
+                        cursor: pointer;
+                        font-size: 12px;
+                        font-family: ProximaNova-Regular, yg740;
+
+                        a {
+                            color: #4e4d4d;
+
+                        }
+
+                        :hover {
+                            border-bottom: 1px solid #000;
+                        }
+
+                    }
+                }
+
+                .right {
+                    width: 45%;
+                    height: 100%;
+                    display: flex;
+
+                    ul {
+                        flex: 1;
+                        padding: 25px 0;
+                        display: flex;
+                        overflow: hidden;
+
+                        li {
+                            width: 140px;
+                            display: flex;
+                            height: 100%;
+                            flex-direction: column;
+                            margin-right: 20px;
+                        }
+                    }
+                }
+            }
+
+
+        }
+    }
+}

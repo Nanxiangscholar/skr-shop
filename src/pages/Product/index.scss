@@ -1,0 +1,10 @@
+.Product{
+    width: 1100px;
+    display: flex;
+    justify-content: space-between;
+    margin: 50px auto;
+    flex-wrap: wrap;
+    .shopitem{
+        padding: 20px 0;
+    }
+}

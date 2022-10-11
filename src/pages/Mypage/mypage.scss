@@ -1,0 +1,18 @@
+#Mypage {
+    width: 100vw;
+
+    #headerTop {
+        margin: 0 auto;
+        width: 1240px;
+        height: 36px;
+        display: flex;
+        font-size: 20px;
+        font-weight: 800;
+        justify-content: space-between;
+    }
+
+    #content {
+        width: 1240px;
+        margin: 30px auto;
+    }
+}

@@ -1,0 +1,94 @@
+.notfound {
+    margin: 0px;
+    padding: 0px;
+    background-color: rgba(0, 0, 0, 0);
+    overflow: hidden;
+
+    .notfound-body {
+        position: relative;
+        img{
+            width: 100%;
+            height: 100%;
+        }
+
+        .notfound-top {
+            position: absolute;
+            top: 0;
+            width: 100%;
+            text-align: center;
+            font-size: 28px;
+            color: white;
+
+            .notfound-center {
+                display: inline-block;
+
+                .notfound-content {
+                    font-size: 128px;
+                    font-weight: 900
+                }
+            }
+
+            .notfound-bottom-QRcode {
+                text-align: left;
+                margin: 350px 10px 0px;
+
+                .notfound-bottom-text {
+                    float: right;
+                    text-align: right;
+                    margin: -144px 5px 0px 0px
+                }
+            }
+
+            .notfound-bottom {
+                width: 230px;
+                height: 230px;
+                margin: 300px 0 0 1200px;
+
+                img {
+                    width: 230px;
+                }
+
+            }
+        }
+    }
+
+    .notfound-love {
+        width: 100%;
+        height: 900;
+        text-align: center;
+
+        img {
+            width: 860px;
+            margin-top: 50px
+        }
+
+        .notfound-love-content {
+            display: inline-block;
+            width: 1500px;
+            height: 300px;
+            margin-top: -260px;
+            color: rgb(118, 179, 234);
+
+            i {
+                float: left;
+                text-align: left;
+                font-size: 32px;
+
+                .notfound-love-text {
+                    font-weight: 900;
+                    font-size: 150px;
+                }
+            }
+
+            .span {
+                float: right;
+
+                .span-text {
+                    font-size: 40px;
+                    transform: rotate(45deg);
+                    color: red
+                }
+            }
+        }
+    }
+}

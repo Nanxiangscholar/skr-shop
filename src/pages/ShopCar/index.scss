@@ -1,0 +1,152 @@
+.shopcar {
+    width: 1200px;
+    margin: 30px auto;
+    overflow: hidden;
+    .shopcar-title {
+      position: relative;
+      height: 50px;
+      line-height: 50px;
+      overflow: hidden;
+      span {
+        font-size: 28px;
+        font-weight: 600;
+        vertical-align: middle;
+        overflow: hidden;
+      }
+      .total-num {
+        font-size: 12px;
+        color: #999;
+        margin-left: 10px;
+        display: inline-block;
+        line-height: 35px;
+        vertical-align: bottom;
+        &::after {
+          content: '';
+          position: absolute;
+          top: 0;
+          left: 0;
+          display: block;
+          width: 55px;
+          height: 3px;
+          background-color: #000;
+        }
+      }
+    }
+    .shopcar-top {
+      margin: 5px 0 15px;
+      line-height: 18px;
+    }
+    .shopcar-list {
+      max-width: 1200px;
+      margin: 30px auto;
+      overflow: hidden;
+      .car-shop-item {
+        width: 100%;
+        height: 140px;
+        border-bottom: 1px solid #c3c3c3;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 20px 0;
+        list-style: none;
+        .checkbox-item {
+          width: 40px;
+        }
+        .car-shop-img {
+          margin: 0 25px;
+          img {
+            width: 100px;
+            height: 100px;
+            vertical-align: middle;
+          }
+        }
+        .car-shop-title {
+          width: inherit;
+          margin: 20px 0;
+          .shop-title-top {
+            height: 70px;
+            .rt {
+              float: left;
+              .shop-name {
+                font-size: 18px;
+                margin: 0;
+              }
+              p {
+                height: 22px;
+              }
+            }
+            .gt {
+              float: right;
+              .shop-price {
+                font-size: 16px;
+                color: #000;
+                font-weight: 500;
+              }
+              .discounted-price {
+                text-decoration-line: line-through;
+                color: #777;
+                text-align: right;
+              }
+            }
+          }
+          .shop-title-bottom {
+            .left {
+              display: flex;
+              justify-content: flex-start;
+              float: left;
+              .price-reduce,
+              .price-add {
+                display: inline-block;
+                width: 30px;
+                height: 26px;
+                box-sizing: border-box;
+                border: 1px solid #ccc;
+                text-align: center;
+                color: #777;
+                margin: 3px;
+              }
+              input {
+                margin: 3px 0px;
+                outline: none;
+                border: 1px solid #ccc;
+                width: 78px;
+                height: 26px;
+                font-size: 12px;
+                text-align: center;
+              }
+            }
+            .right {
+              float: right;
+              .shop-delete {
+                color: #777;
+              }
+            }
+          }
+        }
+      }
+    }
+    
+  }
+  .shop-footer{
+      width: 100%;
+      height: 60px;
+      background-color: rgb(62,62,62);
+      .total-price{
+          display: inline-block;
+          font-size: 18px;
+          line-height: 60px;
+          color: #fff;
+          margin:0px 50px 0px 1100px;
+      }
+      .settlement{
+          width: 100px;
+          height: 40px;
+          background-color: red;
+          font-size: 18px;
+          color: #fff;
+          border: none;
+          cursor: pointer;
+          
+      }
+    }
+  

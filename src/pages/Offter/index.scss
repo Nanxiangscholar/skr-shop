@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.offers {
+    width: 100%;
+
+    .offers-text {
+        width: 80%;
+        padding-top: 80px;
+        height: 200px;
+        margin: 0 auto;
+        text-align: center;
+
+        h2 {
+            font-size: 44px;
+            color: #000;
+        }
+    }
+
+    .offers-pic {
+        width: 80%;
+        margin: 0px auto 30px;
+        text-align: center;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .off-text {
+        border: 1px solid transparent;
+        font-size: 16px;
+        text-align: left;
+        width: 80%;
+        margin: 0 auto 30px;
+
+        h3 {
+            font-weight: 700;
+            font-size: 24px;
+        }
+    }
+
+    .offers-step {
+        width: 80%;
+        margin: 0 auto;
+
+        .step-head {
+            width: 80%;
+            margin: 0 auto 30px;
+            text-align: center;
+
+            .step-row {
+                height: 60px;
+                display: block;
+                padding-top: 6px;
+                padding-left: 30px;
+                margin: 20px auto;
+                position: relative;
+
+                &::before {
+                    content: "";
+                    display: inline-block;
+                    position: absolute;
+                    top: 10px;
+                    left: 0;
+                    width: 1px;
+                    height: 80%;
+                    background-color: #ccc;
+                }
+
+                &::after {
+                    left: 50%;
+                    content: "";
+                    display: inline-block;
+                    position: absolute;
+                    top: 10px;
+
+                    width: 1px;
+                    height: 80%;
+                    background-color: #ccc;
+                }
+
+                .ant-col {
+                    display: inline-block;
+                    box-sizing: border-box;
+                    width: 50%;
+                }
+            }
+        }
+    }
+
+    .claim {
+        text-align: left;
+        width: 80%;
+        margin: 0 auto 30px;
+
+        h3 {
+            font-size: 24px;
+            border-bottom: 2px solid #333;
+            display: block;
+            padding-bottom: 10px;
+            font-weight: 500;
+        }
+    }
+
+}

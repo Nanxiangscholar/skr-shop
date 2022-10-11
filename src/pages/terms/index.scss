@@ -1,0 +1,46 @@
+.dev-wb {
+    .dev-wb-terms {
+        .dev-wb-terms-clause {
+            margin: 0 auto;
+            width: 80%;
+            min-width: 992px;
+            padding-top: 81px;
+            border-bottom: 1px solid #d9d9d9;
+            height: 200px;
+            box-sizing: border-box;
+            text-align: center;
+
+            h2 {
+                font-size: 44px;
+                font-weight: 500;
+                color: rgba(0, 0, 0, .85);
+            }
+        }
+
+        .dev-wb-terms-main {
+            width: 80%;
+            min-width: 992px;
+            margin: 0 auto;
+
+            h3 {
+                font-size: 18px;
+                margin: 40px 0 10px;
+                font-weight: 500;
+                color: #000;
+            }
+
+            .dev-wb-terms-main-title {
+                font-size: 14px;
+                color: #000;
+                margin: 3px 0 5px;
+
+            }
+
+            .dev-wb-terms-main-content {
+                margin-bottom: 20px;
+
+            }
+        }
+    }
+
+}
